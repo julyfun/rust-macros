@@ -28,6 +28,7 @@ macro_rules! read_vec {
             .collect::<vec<$type>>();
     };
 } 
+
 fn main(){
    read!(x as u32);
    read!(y as f64);
