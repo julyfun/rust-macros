@@ -25,7 +25,7 @@ macro_rules! read_vec {
             .trim()
             .split_whitespace()
             .map(|s| s.parse::<$type>().unwrap())
-            .collect::<vec<$type>>();
+            .collect::<Vec<$type>>();
     };
 } 
 
